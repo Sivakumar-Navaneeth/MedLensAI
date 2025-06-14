@@ -97,19 +97,17 @@ conda activate medlensai
 streamlit run src/app.py
 ```
 
-### Using Docker
-
-1. Build and run with Docker Compose:
-```bash
-docker-compose up --build
-```
-
-2. Access the application at `http://localhost:8501`
-
-## 📝 License
-
-[Add your license information here]
-
 ## 🤝 Contributing
 
-[Add contribution guidelines here]
+We welcome contributions! Here's how to help:
+
+1. Fork the repo
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+Please follow PEP 8 style guidelines.
+
+Questions? Open an issue!
+
