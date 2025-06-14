@@ -1,0 +1,38 @@
+name: medlensai
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - numpy
+  - pandas
+  - pillow
+  - pip:
+    - streamlit>=1.32.0
+    - fastapi>=0.109.0
+    - uvicorn>=0.27.0
+    - python-multipart>=0.0.9
+    - pydantic>=2.6.0
+    - sqlalchemy>=2.0.0
+    - psycopg2-binary>=2.9.9
+    - alembic>=1.13.0
+    - transformers>=4.37.0
+    - accelerate>=0.27.0
+    - safetensors>=0.4.0
+    - sentencepiece>=0.1.99
+    - protobuf>=4.25.1
+    - einops>=0.7.0
+    - timm>=0.9.12
+    - python-dotenv>=1.0.0
+    - requests>=2.31.0
+    - tqdm>=4.66.0
+    - pytest>=8.0.0
+    - black>=24.1.0
+    - isort>=5.13.0
+    - flake8>=7.0.0
+    - mkdocs>=1.5.0
+    - mkdocs-material>=9.5.0 
